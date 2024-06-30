@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+    <title>Burger Queen</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <button class="navbar__button">
+            <img src="icons/bag.svg" alt="Bag" />
+            <span>0</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="section__one">
+          <h1 class="section__one-title">
+            Women belong <br />
+            in the kitchen. <br />
+            Wherever the <br />
+            f<img src="images/fire.png" alt="Fire" />ck they want.
+          </h1>
+          <p class="section__one-text">
+            We're tired of being told our place is in the kitchen so we <br />
+            created some cool shit to fight sexism. All proceeds go to <br />
+            Girls Empowerment Network.
+          </p>
+        </section>
+        <section class="section__two">
+          <div id="noodles" class="section__two-card">
+            <div class="section__two-image">
+              <img src="images/noodles.svg" alt="Noodles" />
+            </div>
+            <div class="section__two-content">
+              <div class="section__two-information">
+                <h3 class="section__two-title">Noodles</h3>
+                <p class="section__two-text">$73</p>
+              </div>
+              <div class="section__two-actions">
+                <button data-attribute="-" class="section__two-button">
+                  -
+                </button>
+                <span class="section__two-counter"> 0 </span>
+                <button data-attribute="+" class="section__two-button">
+                  +
+                </button>
+              </div>
+            </div>
+          </div>
+          <div id="burger" class="section__two-card">
+            <div class="section__two-image">
+              <img src="images/burger.svg" alt="Burger" />
+            </div>
+            <div class="section__two-content">
+              <div class="section__two-information">
+                <h3 class="section__two-title">Burger</h3>
+                <p class="section__two-text">$45</p>
+              </div>
+              <div class="section__two-actions">
+                <button data-attribute="-" class="section__two-button">
+                  -
+                </button>
+                <span class="section__two-counter"> 0 </span>
+                <button data-attribute="+" class="section__two-button">
+                  +
+                </button>
+              </div>
+            </div>
+          </div>
+          <div id="twister" class="section__two-card">
+            <div class="section__two-image">
+              <img src="images/twister.svg" alt="Twister" />
+            </div>
+            <div class="section__two-content">
+              <div class="section__two-information">
+                <h3 class="section__two-title">Twister</h3>
+                <p class="section__two-text">$28</p>
+              </div>
+              <div class="section__two-actions">
+                <button data-attribute="-" class="section__two-button">
+                  -
+                </button>
+                <span class="section__two-counter"> 0 </span>
+                <button data-attribute="+" class="section__two-button">
+                  +
+                </button>
+              </div>
+            </div>
+          </div>
+          <div id="vinegar" class="section__two-card">
+            <div class="section__two-image">
+              <img src="images/vinegar.svg" alt="Vinegar" />
+            </div>
+            <div class="section__two-content">
+              <div class="section__two-information">
+                <h3 class="section__two-title">Vinegar</h3>
+                <p class="section__two-text">$18</p>
+              </div>
+              <div class="section__two-actions">
+                <button data-attribute="-" class="section__two-button">
+                  -
+                </button>
+                <span class="section__two-counter"> 0 </span>
+                <button data-attribute="+" class="section__two-button">
+                  +
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section__three">
+          <h2 class="section__three-title">
+            Celebrate all the <br />
+            Burger Queens in <br />
+            your life.
+          </h2>
+          <p class="section__three-text">
+            International Burger's Day (August 22nd)
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <small class="footer__content-copyright">
+            © Burger Queen 2024. All Rights Reserved.
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    <div class="model">
+      <div class="model__overlay">
+        <h3 class="model__title">Корзина <span>Пустая</span></h3>
+        <button class="model__button">X</button>
+        <div class="model__content"></div>
+      </div>
+    </div>
+
+    <script src="script/app.js"></script>
+  </body>
+</html>
